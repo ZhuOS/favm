@@ -1,0 +1,22 @@
+<view class='history-table-wrap'>
+    <view class="table" style="width:100%">
+      <view class="tr">
+          <view class="th th1">序号</view>
+          <view class="th th2">IP</view>
+          <view class="th th3">PORT</view>
+          <view class="th th3">CPU</view>
+          <view class="th th3">MEM</view>
+          <view class="th th3">RTF</view>
+          <view class="th th3">QPS</view>
+      </view>
+      <view class="tr" wx:for="{{5}}">
+          <view class="td td1">0</view>
+          <view class="td td2">1.1.1.1</view>
+          <view class="td td2">8080</view>
+          <view class="td td2">90%</view>
+          <view class="td td2">90%</view>
+          <view class="td td2">30%</view>
+          <view class="td td2">1000</view>
+      </view>
+    </view>
+ </view>

@@ -1,0 +1,16 @@
+<!--index.wxml-->
+
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">解码器业务列表</view>
+        <view class="page__desc"> </view>
+    </view>
+    <view class="page__bd page__bd_spacing">
+        <button class="weui-btn" type="primary" style="width:100%">腾讯视频机顶盒</button>
+        <button class="weui-btn" type="primary" style="width:100%">索尼电视遥控器</button>
+        <button class="weui-btn" type="primary" style="width:100%">王者机器人音箱</button>
+        <button class="weui-btn" type="primary" style="width:100%">QQ聊天语音识别</button>
+        <button class="weui-btn" type="primary" style="width:100%">数平电话语音识别</button>
+
+    </view>
+</view>
